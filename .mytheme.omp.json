@@ -42,7 +42,17 @@
           "properties": {
             "style": "agnoster_short"
           },
-          "template": "<b>{{ .Path }}/</b> <p:light-sky-blue>\u26a1</>"
+          "template": "<b>{{ .Path }}</b> <p:light-sky-blue>\u26a1</>"
+        },
+        {
+          "foreground": "p:white-blue",
+          "properties": {
+            "style": "roundrock",
+            "threshold": 0
+          },
+          "style": "diamond",
+          "template": " {{ .FormattedMs }} ",
+          "type": "executiontime"
         },
         {
           "type": "git",
@@ -110,16 +120,6 @@
           "template": "\uFCD1 {{ .Full}}"
         },
         {
-          "foreground": "p:white-blue",
-          "properties": {
-            "style": "roundrock",
-            "threshold": 0
-          },
-          "style": "diamond",
-          "template": " {{ .FormattedMs }} ",
-          "type": "executiontime"
-        },
-        {
           "type": "command",
           "style": "plain",
           "foreground": "p:white-blue",
@@ -151,7 +151,7 @@
     "template": "\u279c "
   },
   "transient_prompt": {
-    "background": "p:t-background",
+    "background": "transparent",
     "foreground": "p:terminal-blue",
     "template": "\u279c "
   },
