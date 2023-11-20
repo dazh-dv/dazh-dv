@@ -1,0 +1,38 @@
+{
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "workbench.editor.showTabs": "single",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "indenticator.width": 0.1,
+  "indenticator.color.dark": "rgba(255,255,255, 0.1)",
+  "editor.matchBrackets": "never",
+  "breadcrumbs.enabled": false,
+  "editor.glyphMargin": false,
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+  "bootstrapIntelliSense.version": "Bootstrap v5.3"
+}
