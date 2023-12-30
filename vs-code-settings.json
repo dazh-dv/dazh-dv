@@ -6,11 +6,10 @@
   "oneDarkPro.editorTheme": "One Dark Pro Darker",
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "symbols.hidesExplorerArrows": false,
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-  "workbench.editor.showTabs": "single",
+  "workbench.editor.showTabs": "multiple",
   "editor.minimap.enabled": false,
   "editor.scrollbar.vertical": "auto",
   "editor.overviewRulerBorder": false,
@@ -21,7 +20,6 @@
   "indenticator.width": 0.1,
   "indenticator.color.dark": "rgba(255,255,255, 0.1)",
   "editor.matchBrackets": "never",
-  "breadcrumbs.enabled": false,
   "editor.glyphMargin": false,
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
@@ -34,5 +32,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "svelte.enable-ts-plugin": true,
-  "bootstrapIntelliSense.version": "Bootstrap v5.3"
+  "breadcrumbs.symbolPath": "off",
+  "workbench.tree.enableStickyScroll": true,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "editor.stickyTabStops": true,
+  "explorer.fileNesting.enabled": true
 }
