@@ -24,12 +24,12 @@
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
   "editor.tabSize": 2,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "svelte.enable-ts-plugin": true,
   "breadcrumbs.symbolPath": "off",
@@ -37,5 +37,22 @@
   "editor.stickyScroll.enabled": true,
   "terminal.integrated.stickyScroll.enabled": true,
   "editor.stickyTabStops": true,
-  "explorer.fileNesting.enabled": true
+  "eslint.format.enable": true,
+  "explorer.fileNesting.enabled": true,
+  "symbols.hidesExplorerArrows": false,
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, vite.config.js"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "editor.linkedEditing": true,
+  "github.copilot.advanced": {},
+  "git.autofetch": true,
+  "editor.accessibilitySupport": "off"
 }
