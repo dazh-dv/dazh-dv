@@ -20,7 +20,7 @@
 
 ¡No dudes en contactarme si tienes alguna pregunta o sugerencia!
 
-- Correo electrónico: [tuemail@example.com](mailto:sanslime30@gmail.com)
+- Correo electrónico: [Click Aqui](mailto:sanslime30@gmail.com)
 
 ¡Gracias por visitar mi GitHub!
 
